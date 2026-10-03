@@ -1,0 +1,51 @@
+name: Bug report
+description: Something doesn't work as it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Please open this in the repository of the **module** that fails, or in `invasor`
+        if it's the panel itself. For a security problem, don't use this form: see the security policy.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Invasor and, if it applies, the module's version (⚙ Settings › About, and Settings › Modules).
+      placeholder: "Invasor 0.1.0, Ducky 0.2.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and system
+      placeholder: "Steam Deck, SteamOS 3.7 / Legion Go, Bazzite / PC, CachyOS…"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Where do you use Steam?
+      options: [Game Mode, Big Picture, Both, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: And what you expected instead. Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the panel with L3 + R3
+        2. …
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: "The output of `journalctl --user -u invasor -n 100 --no-pager`. Remove anything private first."
+      render: text
