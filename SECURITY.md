@@ -12,7 +12,7 @@ necessarily the same day.
 ## What is covered
 
 - **Invasor (the core)**: the service, the panel, the installer and the update mechanism.
-- **The modules** in this organization: Artwork, Deckico, Ducky, Fishy, GE-RR and Noty.
+- **The modules** in this organization: Artwork, Deckico, Patito, Pescao, GE-RR and Noty.
 - **The release packages** published in each repository's Releases.
 
 Only the **latest release** of each project is supported with fixes.

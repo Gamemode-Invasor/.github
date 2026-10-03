@@ -12,7 +12,7 @@ body:
     attributes:
       label: Version
       description: Invasor and, if it applies, the module's version (⚙ Settings › About, and Settings › Modules).
-      placeholder: "Invasor 0.1.0, Ducky 0.2.0"
+      placeholder: "Invasor 0.1.0, Patito 0.2.0"
     validations:
       required: true
   - type: input

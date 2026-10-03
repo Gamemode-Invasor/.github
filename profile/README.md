@@ -41,8 +41,8 @@ Inside, every feature is its own little **module**. Use the ones you like, switc
 |---|---|
 | **[Artwork](https://github.com/Gamemode-Invasor/invasor-artwork)** | Find community artwork for your games and shortcuts and apply it without leaving the couch. |
 | **[Deckico](https://github.com/Gamemode-Invasor/invasor-deckico)** | Puts each game's icon on its hidden Proton folders, so you can tell which one belongs to which game. |
-| **[Ducky](https://github.com/Gamemode-Invasor/invasor-ducky)** | Frame generation per game, with lsfg-vk. Pick a profile and play. |
-| **[Fishy](https://github.com/Gamemode-Invasor/invasor-fishy)** | The same idea with MAKO Renderer: frame generation and scaling per game. |
+| **[Patito](https://github.com/Gamemode-Invasor/invasor-patito)** | Frame generation per game, with lsfg-vk. Pick a profile and play. |
+| **[Pescao](https://github.com/Gamemode-Invasor/invasor-pescao)** | The same idea with MAKO Renderer: frame generation and scaling per game. |
 | **[GE-RR](https://github.com/Gamemode-Invasor/invasor-ge-rr)** | Keeps the latest GE-Proton installed under one name, so you never have to re-pick it after an update. |
 | **[Noty](https://github.com/Gamemode-Invasor/invasor-noty)** | Shows Steam notifications from your own scripts. |
 
